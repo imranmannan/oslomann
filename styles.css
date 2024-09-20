@@ -23,3 +23,8 @@ p {
 footer {
     font-style: italic;
 }
+
+body {
+    background-color: color-mix(in srgb, Canvas, CanvasText 2.5%);
+    color: color-mix(in srgb, CanvasText, Canvas 15%);
+  }
