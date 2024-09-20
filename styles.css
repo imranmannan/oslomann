@@ -1,0 +1,25 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    align-items:start;
+}
+
+.flex-container .item {
+    text-align:justify;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+}
+
+footer {
+    font-style: italic;
+}
