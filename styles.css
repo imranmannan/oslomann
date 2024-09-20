@@ -11,14 +11,26 @@ p {
 .flex-container {
     display: flex;
     align-items:start;
+
 }
 
-.flex-container .item {
-    text-align:justify;
+header {
+    display: flex;
+    align-items:center;
+    text-align: center;
+}
+
+.item {
     padding: 10px;
     margin: 10px;
     width: 50%;
     height: auto;
+    flex: 1;
+
+}
+
+.flex-container .item {
+    text-align:justify;
     border: 1px solid black;
 }
 
@@ -38,9 +50,10 @@ footer {
 
     }
 
-.logo {
+#logo {
     text-align: left;
     font-style: italic;  
     font-size: 50px;
+    flex:20;
     
 }
