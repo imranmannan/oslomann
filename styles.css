@@ -4,6 +4,7 @@
 
 p {
     margin: 0;
+    text-indent:30px;
 }
 
 .flex-container {
@@ -22,9 +23,23 @@ p {
 
 footer {
     font-style: italic;
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+
+.date-stamp {
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    }
+
+.logo {
+    text-align: left;
+    font-style: italic;  
+    font-size: 50px;
+    
 }
