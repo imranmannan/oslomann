@@ -10,7 +10,9 @@ p {
 
 .flex-container {
     display: flex;
-    align-items:start;
+    align-items:center;
+    flex-direction: column;
+    
 
 }
 
@@ -23,7 +25,7 @@ header {
 .item {
     padding: 10px;
     margin: 10px;
-    width: 50%;
+    width: 80%;
     height: auto;
     flex: 1;
 
@@ -56,4 +58,10 @@ footer {
     font-size: 50px;
     flex:20;
     
+}
+
+#page-title {
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
 }
